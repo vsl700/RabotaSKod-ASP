@@ -18,8 +18,8 @@ namespace RabotaSKod_ASP.Models.ViewModel
         [RegularExpression(@"^\d{10}$", ErrorMessage = "Invalid phone number")] 
         public string PhoneNumber { get; set; }
 
-        [Required] [RegularExpression(@"^([\w‐\.]+)@((\[[0‐9]{1,3}\.[0‐9]{1,3}\.[0‐9]{1,3}\.)|(([\w‐
-            ]+\.)+))([a‐zA‐Z]{2,4}|[0‐9]{1,3})(\]?)$", ErrorMessage = "Invalid email")] 
+        [Required] [RegularExpression(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-
+            ]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$", ErrorMessage = "Invalid email")] 
         public string Email { get; set; }
 
         public string Note { get; set; }
